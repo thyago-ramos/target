@@ -5,7 +5,7 @@ def questao_2(num_check):
 
     while(seq_fibonacci[indice] <= num_check):
         if(indice > 0):
-            seq_fibonacci.append(seq_fibonacci[-1] + seq_fibonacci[-2])
+            seq_fibonacci.append(seq_fibonacci[indice] + seq_fibonacci[indice - 1])
 
         indice += 1
 
