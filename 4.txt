@@ -1,0 +1,25 @@
+4) Você está em uma sala com três interruptores, cada um conectado a uma 
+lâmpada em uma sala diferente. Você não pode ver as lâmpadas da sala em que 
+está, mas pode ligar e desligar os interruptores quantas vezes quiser. Seu 
+objetivo é descobrir qual interruptor controla qual lâmpada.
+
+Como você faria para descobrir, usando apenas duas idas até uma das salas 
+das lâmpadas, qual interruptor controla cada lâmpada?  
+
+A solução pode ser encontrada se for eliminada uma possibilidade de lâmpada
+em cada ida. Para isso, pode ser aplicada uma lógica similar à lógica utilizada
+em algoritmos de busca binária.
+
+Sejam as lâmpadas A, B e C.
+
+Na primeira ida, ative-se dois interruptores.
+
+Ao chegar na sala, a lâmpada apagada corresponde ao interruptor que não foi
+ativado. Um par já foi encontrado.
+
+Na segunda ida, deixe ativado apenas um dos dois interruptores ativados
+anteriormente.
+
+Agora fica mais fácil: há duas possibilidades de lâmpadas e duas de interruptores.
+A lâmpada acessa equivale ao interruptor ativo, e a lâmpada apagada equivale ao
+interruptor inativo.
